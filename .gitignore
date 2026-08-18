@@ -216,3 +216,21 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ---------------------------------------------------------------------------
+# Course-specific: keep instructor-only material out of the public remote
+# ---------------------------------------------------------------------------
+
+# macOS Finder artifacts
+.DS_Store
+
+# Course-wide rule and rubric files -- local only
+/CLAUDE.md
+/RUBRICS.md
+
+# Unit 01: instructor materials stay local. Only the student-facing assignment
+# file is tracked. This covers the solution set, the assignment and notes
+# specs, the instructor session notes, the reflection prompts and template,
+# the methods-allowed list, and previous-materials/.
+/01-variables-booleans/*
+!/01-variables-booleans/assignment-1.py
