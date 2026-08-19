@@ -240,3 +240,10 @@ __marimo__/
 
 # Word lock files (created while a .docx is open)
 ~$*
+
+# Publications: the PDFs are third-party copyrighted papers and this remote is
+# public -- four of the five carry ACM "no posting on servers" terms or an
+# explicit "not for redistribution" line. Keep them local. research-summary.md
+# is our own work and is tracked.
+/publications/*
+!/publications/research-summary.md
