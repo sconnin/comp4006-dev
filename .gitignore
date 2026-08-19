@@ -227,6 +227,9 @@ __marimo__/
 # Course-wide rule and rubric files -- local only
 /CLAUDE.md
 /RUBRICS.md
+/code-rubric.md
+/reflection-rubric.md
+/prompt-vetting.md
 
 # Unit 01: instructor materials stay local. Only the student-facing assignment
 # file is tracked. This covers the solution set, the assignment and notes
