@@ -237,3 +237,6 @@ __marimo__/
 # the methods-allowed list, and previous-materials/.
 /01-variables-booleans/*
 !/01-variables-booleans/assignment-1.py
+
+# Word lock files (created while a .docx is open)
+~$*
