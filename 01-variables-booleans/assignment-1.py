@@ -10,8 +10,10 @@ Time Spent (approx.):
 General Homework Guidelines:
 - Submit two files to Canvas: this completed .py file, and a separate .docx file containing
   the reflective prompts and your responses. Do not submit .ipynb files.
-- Only use imports/methods listed in this assignment's methods-allowed.md effective set:
-  print(), input(), type(), int(), float(), str(), bool(), round(), .format(), f-strings.
+- Only use what is listed in this assignment's methods-allowed.md effective set.
+  Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format().
+  Language features: f-strings, arithmetic and comparison operators, and/or/not, True/False.
+  Control flow (if, for, while) is not part of this assignment -- it is introduced next week.
 - Use inline and/or multiline comments to explain what your code is doing, and to answer
   any question that asks for a written response.
 - Follow PEP 8: snake_case for variables, ALL_CAPS for constants, spaces around operators,
@@ -26,20 +28,26 @@ General Homework Guidelines:
   compare. The point is to test your own understanding, not to transcribe an answer Python
   already gave you.
 
-Total points for this file: 80
-See assignment-spec.md for full requirements and point values per exercise.
+Total points for this file: 80, made up of two parts.
+- 70 points are spread across the seven exercises below, using the point value shown on each.
+- 10 points are scored once, on the submission as a whole: whether every exercise is present and
+  the file follows the instructions in this header. Those 10 points are the easiest in the
+  assignment to keep and the easiest to lose by not reading.
+
+See assignment-spec.md for full requirements, and code-rubric.md for how each exercise's points
+are awarded.
 
 Several exercises ask for a short written response (e.g. a hand-calculated value, an
 explanation, a justification) in addition to code. Write these directly into this file as
-comments, in the location indicated for each exercise -- they are graded as part of this file's
-80 points.
+comments, in the location indicated for each exercise -- they are graded as part of that
+exercise's points.
 
 This file does NOT include the reflective prompts. Those are a separate 20-point component:
 answer them in a .docx file and upload it to Canvas alongside this .py file.
 '''
 
 #############################################################################
-# Exercise 1 -- Verifying Arithmetic Expressions (8 pts)
+# Exercise 1 -- Verifying Arithmetic Expressions (7 pts)
 #############################################################################
 
 # Scenario: A monitoring script computes a derived metric from raw sensor
@@ -67,7 +75,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 2 -- Access-Control Conditions (8 pts)
+# Exercise 2 -- Access-Control Conditions (7 pts)
 #############################################################################
 
 # Scenario: A login system grants access based on three security flags:
@@ -95,7 +103,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 3 -- Fixing Invalid Identifiers (6 pts)
+# Exercise 3 -- Fixing Invalid Identifiers (5 pts)
 #############################################################################
 
 # Scenario: A teammate's draft script uses variable names that won't run.
@@ -120,7 +128,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 4 -- Data Sample Grid (12 pts)
+# Exercise 4 -- Data Sample Grid (10 pts)
 #############################################################################
 
 # Scenario: A dataset is stored as a square grid of pixels (e.g., a
@@ -143,7 +151,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 5 -- Session Duration Converter (15 pts)
+# Exercise 5 -- Session Duration Converter (13 pts)
 #############################################################################
 
 # Scenario: A security log records a user session length in seconds. For
@@ -166,7 +174,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 6 -- Model Deployment Eligibility Report (21 pts)
+# Exercise 6 -- Model Deployment Eligibility Report (19 pts)
 #############################################################################
 
 # Scenario: Before a trained model can be deployed, it must pass automated
@@ -185,7 +193,9 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 #    literal True/False text):
 #    - Accuracy requirement (>= 0.90)
 #    - Sample size requirement (> 1000)
-#    - Data integrity requirement (data_verified is True)
+#    - Data integrity requirement (data_verified must be True). The
+#      `is` operator is not part of this assignment -- compare with ==,
+#      or use the boolean variable on its own.
 #    - Final eligibility: all three requirements must hold
 # 3. Print a "Logic Explanation" section showing the substituted boolean
 #    values step by step (e.g. "Final = True and True and True" then
@@ -202,7 +212,7 @@ answer them in a .docx file and upload it to Canvas alongside this .py file.
 
 
 #############################################################################
-# Exercise 7 -- Analyst Registration Prompt (10 pts)
+# Exercise 7 -- Analyst Registration Prompt (9 pts)
 #############################################################################
 
 # Scenario: A command-line tool asks a new analyst for their name and the
