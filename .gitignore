@@ -231,12 +231,14 @@ __marimo__/
 /reflection-rubric.md
 /prompt-vetting.md
 
-# Unit 01: instructor materials stay local. Only the student-facing assignment
-# file is tracked. This covers the solution set, the assignment and notes
-# specs, the instructor session notes, the reflection prompts and template,
-# the methods-allowed list, and previous-materials/.
-/01-variables-booleans/*
-!/01-variables-booleans/assignment-1.py
+# Every week folder: instructor materials stay local. Only the student-facing
+# assignment-N.py is tracked. This covers each week's solution set, the
+# assignment and notes specs, the instructor session notes, methods-allowed.md,
+# and previous-materials/ (already separately ignored above). Applies to every
+# NN-name/ folder, current and future, so a new unit never needs this rule
+# added by hand.
+/[0-9][0-9]-*/*
+!/[0-9][0-9]-*/assignment-[0-9].py
 
 # Word lock files (created while a .docx is open)
 ~$*
