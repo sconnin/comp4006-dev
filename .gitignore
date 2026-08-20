@@ -247,3 +247,9 @@ __marimo__/
 # is our own work and is tracked.
 /publications/*
 !/publications/research-summary.md
+
+# previous-materials/: files carried over from the earlier run of this course
+# (COMP 3005) -- lecture slides, live-session notes, homework sheets, and data,
+# organised as data/ homework/ notes/ slides/ in each week folder. Instructor
+# material, and this remote is public, so it stays local in every week.
+previous-materials/
