@@ -10,6 +10,10 @@ Time Spent (approx.):
 General Homework Guidelines:
 - Submit two files to Canvas: this completed .py file, and a separate .docx file containing
   the reflective prompts and your responses. Do not submit .ipynb files.
+- Rename this file before submitting, to hw2_firstname_lastname.py -- your own first and
+  last name, lower case, separated by underscores (e.g. hw2_ada_lovelace.py). An assignment
+  that asks for several files is submitted as one .zip named the same way, ending .zip
+  instead of .py.
 - Only use what is listed in this assignment's methods-allowed.md effective set.
   Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format(),
   dir(), id(), help(), range(), len(), enumerate(), isinstance().
