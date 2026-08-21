@@ -78,8 +78,8 @@ Total points for this file: 80, made up of two parts.
   instructions in this header. Those 10 points are the easiest in the assignment to keep and
   the easiest to lose by not reading.
 
-See assignment-spec.md for full requirements, and code-rubric.md for how each exercise's
-points are awarded.
+The requirements printed above each exercise are complete -- everything you need to do the
+assignment is in this file. See code-rubric.docx for how each exercise's points are awarded.
 
 Several exercises ask for a short written response (an explanation, a comparison, a
 justification) in addition to code. Write these directly into this file as comments, in the
