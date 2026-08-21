@@ -12,7 +12,7 @@ General Homework Guidelines:
   the reflective prompts and your responses. Do not submit .ipynb files.
 - Only use what is listed in this assignment's methods-allowed.md effective set.
   Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format(),
-  range(), len(), enumerate(), isinstance().
+  dir(), id(), help(), range(), len(), enumerate(), isinstance().
   Language features: f-strings, arithmetic and comparison operators, and/or/not, True/False,
   if/elif/else, for...in, while, break, continue, in/not in, is/is not.
   Lists, tuples, dictionaries, and sets are NOT part of this assignment -- they begin in week 4.

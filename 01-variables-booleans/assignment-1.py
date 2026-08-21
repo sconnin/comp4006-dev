@@ -11,7 +11,8 @@ General Homework Guidelines:
 - Submit two files to Canvas: this completed .py file, and a separate .docx file containing
   the reflective prompts and your responses. Do not submit .ipynb files.
 - Only use what is listed in this assignment's methods-allowed.md effective set.
-  Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format().
+  Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format(),
+  dir(), id(), help().
   Language features: f-strings, arithmetic and comparison operators, and/or/not, True/False.
   Control flow (if, for, while) is not part of this assignment -- it is introduced next week.
 - Use inline and/or multiline comments to explain what your code is doing, and to answer
