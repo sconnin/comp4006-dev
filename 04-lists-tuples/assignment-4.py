@@ -26,11 +26,7 @@ General Homework Guidelines:
   type hints, global, local vs. global scope, import, __name__ and '__main__', list and
   tuple literals, indexing, negative indexing, slicing, nested indexing, index assignment,
   tuple unpacking, returning several values, *args in a function definition, concatenation
-  and repetition.
-- LIST COMPREHENSIONS are NOT part of this assignment. Python has a shorter way to write a
-  loop that builds a list, and you will find it online -- it is called a list comprehension.
-  It is held back on purpose so that this week's attention stays on what .append() actually
-  does to a list. Write the loop.
+  and repetition, list comprehensions (the plain form and the if-filtered form).
 - Strings methods other than .lower() are NOT part of this assignment -- they begin in
   week 5. Sets and dictionaries begin in weeks 5 and 6. There is no file reading this week,
   which is why the data in Exercise 6 is typed directly into this file; that is week 7.

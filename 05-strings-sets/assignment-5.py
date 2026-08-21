@@ -31,11 +31,9 @@ General Homework Guidelines:
   New this week -- functions: set(), frozenset(), hash(), ord(), chr().
   New this week -- language features: string indexing and slicing, string immutability,
   both quote styles, escape sequences, raw strings, "in" as a substring test, + and * on
-  strings, set literals, set operators | & - ^, and set comparisons <= >= < >.
+  strings, set literals, set operators | & - ^, set comparisons <= >= < >, and set
+  comprehensions (the plain form and the if-filtered form).
 
-- COMPREHENSIONS are still NOT part of this assignment -- neither list nor set. Python has
-  a shorter way to write a loop that builds a list or a set, and you will find it online.
-  It is held back until a later unit. Write the loop.
 - try/except is NOT part of this assignment. Exercise 2 asks you to judge whether text
   looks like a number; do it with the string test methods above, not by attempting a
   conversion and catching the failure. Error handling is week 7.
