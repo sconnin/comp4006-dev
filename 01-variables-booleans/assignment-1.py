@@ -14,7 +14,8 @@ General Homework Guidelines:
   last name, lower case, separated by underscores (e.g. hw1_ada_lovelace.py). An assignment
   that asks for several files is submitted as one .zip named the same way, ending .zip
   instead of .py.
-- Only use what is listed in this assignment's methods-allowed.md effective set.
+- Only use the methods and language features listed below. Anything not listed is not
+  permitted, even if you already know it.
   Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format(),
   dir(), id(), help().
   Language features: f-strings, arithmetic and comparison operators, and/or/not, True/False.

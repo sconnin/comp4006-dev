@@ -12,7 +12,8 @@ General Homework Guidelines:
   submit" below -- read it before you start, because it changes how you organize your work.
 - Rename this file to hw3_firstname_lastname.py -- your own first and last name, lower case,
   separated by underscores (e.g. hw3_ada_lovelace.py).
-- Only use what is listed in this assignment's methods-allowed.md effective set.
+- Only use the methods and language features listed below. Anything not listed is not
+  permitted, even if you already know it.
   Methods: print(), input(), type(), int(), float(), str(), bool(), round(), .format(),
   dir(), id(), help(), range(), len(), enumerate(), isinstance(), sum(), locals(),
   globals(), .lower(), main().
