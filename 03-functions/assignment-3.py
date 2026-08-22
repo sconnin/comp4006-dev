@@ -19,7 +19,8 @@ General Homework Guidelines:
   Language features: f-strings, arithmetic and comparison operators, and/or/not, True/False,
   if/elif/else, for...in, while, break, continue, in/not in, is/is not, def, return,
   parameters and arguments, default parameter values, keyword arguments, None, docstrings,
-  type hints, global, local vs. global scope, import, __name__ and '__main__'.
+  type hints, global, local vs. global scope, import, __name__ and '__main__',
+  a function held in a variable (a name with no parentheses is the function itself).
   Lists, tuples, dictionaries, and sets are NOT part of this assignment -- they begin in
   week 4. This is why no function here returns two values: "return a, b" builds a tuple.
   If an exercise seems to need two results, it needs two functions.
@@ -310,10 +311,13 @@ answer them in a .docx file and upload it to Canvas alongside this .zip.
 # 5. Import the module with "import storage_helpers", at the top of this file
 #    with the other import.
 # 6. Write convert_storage taking two parameters, size and current_unit. Using
-#    .lower() so that "MB", "mb" and "Mb" are all accepted, choose the correct
-#    helper with an if / elif / else chain and RETURN the converted value. Call
-#    the helpers through the module name, like this:
-#        storage_helpers._megabytes_to_gigabytes(size)
+#    .lower() so that "MB", "mb" and "Mb" are all accepted, use an
+#    if / elif / else chain to ASSIGN THE CORRECT HELPER TO A VARIABLE, then
+#    call that variable ONCE on the last line to RETURN the converted value.
+#    Write the helper's name with NO parentheses when you assign it:
+#        converter = storage_helpers._megabytes_to_gigabytes   # no ()
+#        ...
+#        return converter(size)                                # called here
 # 7. If current_unit is neither megabytes nor gigabytes, return -1.0.
 # 8. Write a function main that calls convert_storage at least three times --
 #    once megabytes to gigabytes, once gigabytes to megabytes, and once with an
@@ -327,9 +331,13 @@ answer them in a .docx file and upload it to Canvas alongside this .zip.
 #     storage_helpers.py directly and what it holds when this file imports it,
 #     and say what would appear in your output if the guard were removed from
 #     storage_helpers.py.
+# 12. Print the chosen helper's NAME on its own, without parentheses, once -- so
+#     you can see what a function looks like when it is not being called. In the
+#     trailing comment, say in one sentence what the difference is between
+#     writing converter and writing converter(size).
 
 
-# --- Trailing comment (what __name__ holds, and what the guard prevents) ---
+# --- Trailing comment (__name__, the guard, and converter vs converter(size)) ---
 
 
 # --- main() call goes here, on the last line of the file ---
